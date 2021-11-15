@@ -1,4 +1,5 @@
 #map    { position: relative; min-height: 500px; }
+#map > svg { display: block; margin: 0 auto}
 
 .district, .disputed, .state rect, .state path { stroke: #a9a9a9; stroke-width: 1px; }
 
@@ -8,7 +9,7 @@
 
 #select {
 	position:absolute;
-	left: 500px;
+	left: 700px;
 	top: 100px;
         font: 12px sans-serif;
         color: #333;
